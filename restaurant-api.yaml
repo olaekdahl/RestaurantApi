@@ -15,7 +15,7 @@ spec:
         app: restaurant-api
     spec:
       containers:
-        - image: restaurant-api:latest
+        - image: webage.azurecr.io/restaurant-api:latest
           name: restaurant-api
 ---
 apiVersion: v1
